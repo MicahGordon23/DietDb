@@ -16,12 +16,12 @@ typedef struct
 {
     uint64_t tableId;
     char m_name[MAX_NAME_LENGTH];
-    uint8_t m_colCount;
+    uint16_t m_colCount;
 }table_t;
 
 //***********************************************
 // See and update header file for documentation
-tableT initTable(char * name, uint8_t nameLen)
+tableT InitTable(char * name, uint8_t nameLen)
 {
     table_t * newTable = NULL;
 
@@ -35,7 +35,7 @@ tableT initTable(char * name, uint8_t nameLen)
 
 //***********************************************
 // See and update header file for documentation
-tableT destroyTable(tableT ptable)
+tableT DestroyTable(tableT ptable)
 {
     table_t * table = (table_t*) ptable;
 
@@ -44,7 +44,7 @@ tableT destroyTable(tableT ptable)
 
 //***********************************************
 // See and update header file for documentation
-tableT deleteTable(tableT ptable)
+tableT DeleteTable(tableT ptable)
 {
     table_t * table = (table_t*) ptable;
     return NULL;

@@ -14,6 +14,7 @@ all: database.o table.o test
 
 clean:
 	rm -f *.o
+	rm -f test
 #	rm -f httpserver \
 	rm -f *.o 
 

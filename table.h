@@ -18,7 +18,7 @@
 // Date: 2024.11.23
 // Edits:
 //*********************************************
-tableT initTable(char * name, uint8_t nameLen);
+tableT InitTable(char * name, uint8_t nameLen);
 
 //*********************************************
 // Purpose: Clean up all resources allocated to the table.
@@ -28,7 +28,7 @@ tableT initTable(char * name, uint8_t nameLen);
 // Date: 2024.11.23
 // Edits:
 //*********************************************
-tableT destroyTable(tableT table);
+tableT DestroyTable(tableT table);
 
 //*********************************************
 // Purpose:
@@ -37,5 +37,4 @@ tableT destroyTable(tableT table);
 // Date: 2024.11.23
 // Edits:
 //*********************************************
-tableT deleteTable(tableT table);
-
+tableT DeleteTable(tableT table);
